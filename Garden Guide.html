@@ -1,0 +1,666 @@
+﻿<!DOCTYPE html>
+<html>
+<head><!--- Tab head and overarching things --->
+<title>Garden Guide</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body><!--- Everthing --->
+
+<div class="w3-teal w3-container"><!--- Background ---><!--- This stops everything from extending to the edges and makes it look better --->
+
+<div><!--- Intro to the Guide --->
+  <h1>The Artifact's Signal is Drawn to the Black Garden.</h1>
+  <p id="demo">Please input your teammate's names. They will be automaticly assigned teams based on which number they are placed in. (they'll be <em>italicized</em>)<br> Please fill out all of the spaces</p><br>
+</div>
+
+
+<div  class="w3-container w3-indigo w3-cell-row"><!--- Name Input ---><!--- This is where people put in their names and where their names are taken from --->
+ <br>
+  <div>
+    <input type="text" id="boi1"/>
+    <button class="w3-purple" type="button" onclick="funky1()">Submit</button>
+    <p id="guard1"><em>Name here</em></p>
+  </div>
+
+  <div>
+    <input type="text" id="boi2"/>
+    <button class="w3-purple" type="button" onclick="funky2()">Submit</button>
+    <p id="guard2"><em>Name here</em></p>
+  </div>
+
+<div>
+    <input type="text" id="boi3"/>
+    <button class="w3-purple" type="button" onclick="funky3()">Submit</button>
+    <p id="guard3"><em>Name here</em></p>
+  </div>
+
+<div>
+    <input type="text" id="boi4"/>
+    <button class="w3-purple" type="button" onclick="funky4()">Submit</button>
+    <p id="guard4"><em>Name here</em></p>
+  </div>
+
+<div>
+    <input type="text" id="boi5"/>
+    <button class="w3-purple" type="button" onclick="funky5()">Submit</button>
+    <p id="guard5"><em>Name here</em></p>
+  </div>
+
+<div>
+    <input type="text" id="boi6"/>
+    <button class="w3-purple" type="button" onclick="funky6()">Submit</button>
+    <p id="guard6"><em>Name here</em></p>
+  </div>
+
+
+</div>
+
+
+
+<script><!--- ------------------------------------------------------------ ---><!---Scripting ---><!--- ------------------------------------------------------------ --->
+<!--- This is where all the functions are placed. Functions are anything that move, change, or transform content. Also, everything in this section is Javascript. --->
+
+
+<!--- -----------------------Starting button functions------------------------------------- ---><!--- This is where the first buttons functions aer located --->
+
+function funky1() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guard1").innerHTML = player1;
+}}
+
+function funky2() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guard2").innerHTML = player2
+}}
+
+function funky3() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guard3").innerHTML = player3
+}}
+
+function funky4() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guard4").innerHTML = player4
+}}
+
+function funky5() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guard5").innerHTML = player5
+}}
+
+function funky6() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guard6").innerHTML = player6
+}}
+
+<!--- -----------------------General Names Functions------------------------------------- ---><!---  --->
+
+function allNamesABC(){
+    funkyA();
+    funkyB();
+    funkyC();
+    funkyD();
+    funkyE();
+    funkyF();
+}
+
+function allNamee123(){
+    funkey1();
+    funkey2();
+    funkey3();
+    funkey4();
+    funkey5();
+    funkey6();
+}
+
+function allNameyX(){
+    funkyX();
+    funkyXX();
+    funkyXXX();
+    funkyXXXX();
+    funkyXXXXX();
+    funkyXXXXXX();
+}
+
+function allNamec123(){
+    func1();
+    func2();
+    func3();
+    func4();
+    func5();
+    func6();
+}
+
+function generalNamesFUN(){
+    funA();
+    funB();
+    funC();
+    funD();
+    funE();
+    funF();
+}
+
+<!--- Name-button functions ---><!--- There is a Function for each place a name needs to be moved. I needed to use more functions because I couldn't figureout how to repeat a single one. So instead I just gave them all different IDs. --->
+<!--- -------------------------- funkyABC ----------------------------------- --->
+
+function funkyA() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guardA").innerHTML = player1;
+}}
+
+function funkyB() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guardB").innerHTML = player2
+}}
+
+function funkyC() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guardC").innerHTML = player3
+}}
+
+function funkyD() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guardD").innerHTML = player4
+}}
+
+function funkyE() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guardE").innerHTML = player5
+}}
+
+function funkyF() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guardF").innerHTML = player6
+}}
+
+<!--- -----------------------funkey123------------------------------------- --->
+
+function funkey1() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guardI").innerHTML = player1;
+}}
+
+function funkey2() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guardII").innerHTML = player2
+}}
+
+function funkey3() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guardIII").innerHTML = player3
+}}
+
+function funkey4() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guardIV").innerHTML = player4
+}}
+
+function funkey5() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guardV").innerHTML = player5
+}}
+
+function funkey6() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guardVI").innerHTML = player6
+}}
+
+<!--- --------------------------funkyX---------------------------------- --->
+
+function funkyX() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guardX").innerHTML = player1;
+}}
+
+function funkyXX() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guardXX").innerHTML = player2
+}}
+
+function funkyXXX() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guardXXX").innerHTML = player3
+}}
+
+function funkyXXXX() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guardXXXX").innerHTML = player4
+}}
+
+function funkyXXXXX() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guardXXXXX").innerHTML = player5
+}}
+
+function funkyXXXXXX() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guardXXXXXX").innerHTML = player6
+}}
+
+<!--- --------------------------func123---------------------------------- --->
+
+function func1() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guardc1").innerHTML = player1;
+}}
+
+function func2() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guardc2").innerHTML = player2
+}}
+
+function func3() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guardc3").innerHTML = player3
+}}
+
+function func4() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guardc4").innerHTML = player4
+}}
+
+function func5() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guardc5").innerHTML = player5
+}}
+
+function func6() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guardc6").innerHTML = player6
+}}
+
+<!--- --------------------------gerneralNamesFUN---------------------------------- --->
+
+
+function funA() {
+  var player1 = document.getElementById("boi1").value
+  if (player1 != null) {
+      document.getElementById("guardgenA").innerHTML = player1;
+}}
+
+function funB() {
+  var player2 = document.getElementById("boi2").value
+  if (player2 != null) {
+  document.getElementById("guardgenB").innerHTML = player2
+}}
+
+function funC() {
+  var player3 = document.getElementById("boi3").value
+  if (player3 != null) {
+  document.getElementById("guardgenC").innerHTML = player3
+}}
+
+function funD() {
+  var player4 = document.getElementById("boi4").value
+  if (player4 != null) {
+  document.getElementById("guardgenD").innerHTML = player4
+}}
+
+function funE() {
+  var player5 = document.getElementById("boi5").value
+  if (player5 != null) {
+  document.getElementById("guardgenE").innerHTML = player5
+}}
+
+function funF() {
+  var player6 = document.getElementById("boi6").value
+  if (player6 != null) {
+  document.getElementById("guardgenF").innerHTML = player6
+}}
+
+</script>
+
+<!--- ------------------------------------------------------------ ---><!---Start of Content ---><!--- ------------------------------------------------------------ --->
+
+<div><!--- ------------------------------------------------------------ ---><!--- Encoutner List ---><!--- ------------------------------------------------------------ --->
+<!--- Clicking on the hyperlinks will move the user through the page --->
+<h3 class="w3-panel w3-padding-large">To make things easy, here are the Encounters</h3>
+
+
+<div class="w3-container w3-margin-bottom w3-teal">
+<!--- List of Encounters --->
+  <ul class="w3-ul">
+    <li class="w3-container w3-purple"><h4>Encounters</h4></li>
+    <li class="w3-leftbar w3-border-green w3-green w3-text-black"><a href="#Escape guide">Escape the Consecrated Mind</a></li>
+    <li class="w3-leftbar w3-border-green w3-green w3-text-black"><a href="#Underground guide">Underground Jumping Puzzle</a></li>
+    <li class="w3-leftbar w3-border-yellow w3-yellow w3-text-black"><a href="#Confluxes guide">Confluxes+</a></li>
+    <li class="w3-leftbar w3-border-orange w3-orange w3-text-black"><a href="#Consecrated guide">Consecrated Mind</a></li>
+    <li class="w3-leftbar w3-border-green w3-green w3-text-black"><a href="#Windmill guide">Windmill Jumping Puzzle</a></li>
+    <li class="w3-leftbar w3-border-red w3-red w3-text-black"><a href="#Sanctified guide">Sanctified Mind</a></li>
+  </ul>
+</div>
+</div>
+
+
+
+<div class="w3-container w3-light-blue"><!--- ------------------------------------------------------------ ---><!--- Encounter 1 cover ---><!--- ------------------------------------------------------------ --->
+
+  <div> 
+
+  <h1 id="Escape guide">Escape the Consecrated Mind</h1>
+  <h3>This is about the weirdo eating the Minotaur</h3>
+
+   <button class="w3-aqua" buttontype="button" onclick="allNamesABC();">Refresh Names</button> 
+   <p> Team 1 = <em id="guardA">Gary1</em>, <em id="guardB">Gary2</em>, <em id="guardC">Gary3</em> </p>
+   <p> Team 2 = <em id="guardD">Gary4</em>, <em id="guardE">Gary5</em>, <em id="guardF">Gary6</em> </p>
+
+    <p>Team 1 is going to be badysitting the Boss, while team 2 will be running ahead. To start the encounter team 2 (with help from team 1 if needed) will use a tether box to tether to the holographic door, this will both open the door and start the encounter. Though You can kill the floating Minotaur.</p>
+
+
+		<div class="w3-container w3-teal"><!--- Team 1 cover --->   
+  <h4>Team 1</h4>
+    <p>You will wait in the starting room, the Boss and some adds will spawn. Kill the adds and wait for the Boss to stop shooting. Once he does, have one person follow him and be ready to pick up a White Vexxing Grenade
+	(debuff) called "Voltaic Overflow" upon pick up you will not be able to pick another debuff up for 2:30 minutes (If you do, you will die), you will do this until team 2 has finished their job. After team 2 has finished 
+	their job (this will be apparent as the Boss will teleport away), you will then move on to the 2nd room, then move into the 3rd room. Here, you guys will kill all the adds in this room (Important ones include: cyclopes,
+	overload Minotaur, and an "angelic" hydra), after the hydra is dead the tether box in the room will be unlocked. Use this box to unlock the holo-door in this room. You will then stay in this room and repeat what you did 
+	in the 1st room. Team 2 will clear room 4 and you will then end up at the final stretch.
+    </p>
+
+ <div class="w3-container w3-margin-left w3-teal"><!--- Team 1 list cover --->
+   <h6>Team 1 to-do list</h6>
+    <ol><!--- Team 1 list --->
+      <li>Babysit the Boss in Room 1 (Until Team 2 finishes Room 2)</li>
+      <li>Move to Room 3</li>
+      <li>Kill everything, especially the Hydra</li>
+      <li>Tether to the Holo-Door</li>
+      <li>Babysit the Boss in Room 3 (Until Team 2 finishes Room 4)</li>
+      <li>Move to Room 4</li>
+      <li>Enter the final stretch</li>
+    </ol>
+ </div><!--- Team 1 list cover --->
+ 
+		</div><!--- Team 1 cover --->
+
+
+		<div class="w3-container w3-aqua"><!--- Team 2 cover --->
+ <h4>Team 2</h4>
+
+    <p>As soon as the door is open you will move into Room 2. Kill everything in this room(Important ones include: cyclopes, overload Minotaur, and an "angelic" hydra). After the hydra is killed you will be able to use a tether 
+	box to tether to the new holo-door. After tethering, the Boss will teleport out of the floor killing anyone too close. The Boss will shoot anyone in its sight for a period of time, once the Boss is ready it will stop 
+	shooting and move to another part of the room. Must follow it and pick up the debuff ("Voltaic Overflow") it shoots out, this debuff will last for 2:30 minutes and during this time you will not be able to pick up another 
+	debuff (otherwise you will die). After team 1 has finished Room 3, you will move to room 4 and repeat what you did upon entering Room 2.
+</p>
+
+ <div class="w3-container w3-margin-left w3-aqua"><!--- Team 2 list cover --->
+   <h6>This is your to-do list</h6>
+    <ol>
+      <li>Move to Room 2</li>
+      <li>Kill everything in Room 2</li>
+      <li>Tether to the holo-door</li>
+      <li>Babysit the Boss in Room 2 (Until Team 1 finishes Room 3)</li>
+      <li>Move to Room 4</li>
+      <li>Kill everything in Room 4</li>
+      <li>Tether 3 times to the holo-door</li>
+      <li>Enter the final stretch</li>
+    </ol>
+ </div><!--- Team 2 list cover --->
+		</div><!--- Team 2 cover --->
+		
+		
+ <div class="w3-container w3-cyan"><!--- Final Stretch --->
+  <h4>Final Stretch</h4>
+  <p>This is the easiest part of the encounter. The goal for part is to pick up the 3 voltaic overflow the Boss spawns and to live. There will be a lot of cyclops and 3 overload Minotaurs. you can kill them if you want but I 
+recommend that you just run forward to where the Boss will be. Call out who is gonna pick up which Voltaic Overflow and if no one calls out, just pick it up because the encounter is going to end after the 3 are picked up.</p>
+  <br><br>
+  <p>Congratulations! you have just completed the first encounter of Garden of Salvation</p>
+ </div><!--- Final Stretch --->
+   <br>
+  </div></div><!--- Encounter 1 cover --->
+
+
+
+<div class="w3-container w3-green"><!--- ------------------------------------------------------------ ---><!--- Jump Puzzle 1 cover ---><!--- ------------------------------------------------------------ --->
+  <h1 id="Underground guide">Underground Jumping Puzzle</h1>
+  <h3>Hop, skip, and a branch away</h3>
+  <p>Make your way forward past the first encounter's chest. After dropping down a glowing hole, you will find yourself in a large open area. Hug the left wall until you come across a platform that moves up and down 
+  (this will be on your right). Just past the lowest point that platform reaches will be a hole that leads to a chest (this chest will only hold armor that you have already obtained and a mod specific to this raid). 
+  If you look through the hole that is behind the chest, there will be a wall with many platforms. Try to jump onto one of the platforms (the bottom-most will be the easiest to land on), use the surrounding platforms 
+  to get as high as you can. Then you want to jump to the closed plant right near a branch surrounded by red light, follow the branch toward the red and continue onward. You should end up at a spire with goblins around it.</p>
+</div><!--- Jump Puzzle 1 cover --->
+
+
+
+<div class="w3-container w3-light-blue"><!--- ------------------------------------------------------------ ---><!--- Encounter 2 cover ---><!--- ------------------------------------------------------------ --->
+
+  <h1>Confluxes+</h1>
+   <h3>Confluxes with extra steps</h3>
+
+      <button class="w3-aqua" buttontype="button" onclick="allNamec123();">Refresh Names</button> 
+   <p> Defence Team = (1)-<em id="guardc1">Gary1</em> (2)-<em id="guardc2">Gary2</em> (3)-<em id="guardc3">Gary3</em> (4)-<em id="guardc4">Gary4</em> </p>
+   <p> Float Team = (5)-<em id="guardc5">Gary5</em> (6)-<em id="guardc6">Gary6</em> </p>
+   	
+       <p><strong>Precurser</strong> - This one is a little more complicated to explain than the others. There are a lot of ways to do this encounter, but I'm going to talk about the one <em>I</em> found easiest to teach 
+	   (its not the usual LFG strat). Feel free to look up different guides if this one isn't working for you or if someone has a different strat that they are adamant that they do.</p>
+	   <br>
+	   <p> Its also worth noting that there are teleporters on either side(left/right) of each side(N, E, S, W) that take you down that corridor much faster, but they are only activated when the place you want to teleport 
+	   to have already been tethered to. Also this is the first encounter that you will find the "Enlightened" buff, this buff will allow you to break shields on the adds trying to sacrifies to your spire/conflux.</p>
+      <div><!--- First Half --->
+	   <div class="w3-container w3-teal"><!--- Defence Team --->
+       <h6> Defence Team </h6>
+    	<div class="w3-container">
+        <p>#1 and #2 stay at south side and kill both a hydra and every add that moves toward you. After they are you will tether and become buffed, and #2 will teleport to East side to kill their adds. #1 will meet with #2 on
+		East to tether for the second and third time. During the 3rd tether #3 will be joining #1 & #2 for the tethers at East. After this will either be a 4th tether at East or you will enter the Hydra Rounds</p>
+   	<p>#3 and #4 will move with #5 & #6 to east to kill stuff (this includes: 2 barrier hobgoblins, an Angelic hydra, and some adds. all this per hallway). Once they make it to East this whole team will tether and then move to 
+	North. Once North is clear, #3 will tether with the group then stay on that side to clear adds. #3 will refer tether with #1 & #2 at East for next tether. #4-6 will move to West, clear West and tether at West. After this
+	will either be a calm wave of adds or you will start the Hydra Rounds</p>
+       </div>
+	   </div>
+	   <div class="w3-container w3-aqua"><!--- Float Team --->
+       <h6> Float Team </h6>
+  	<div class="w3-container">
+   	<p>#5 and #6 will move counter-clockwise to each side(N,E,S,W) killing all high-value targets (Barrier Hobgoblins and Angelic Hydras). At each side tether with the group to ensure people that are meant to be there get 
+	their buff. Once you both have tethered at West, you may have either a calm round of adds where you will tether at West again or have entered the Hydra Rounds</p>
+	</div>
+	</div>
+	   <div class="w3-container"><!--- Image --->
+	<a href="https://media.discordapp.net/attachments/369907365551538186/631993249220919307/Encounter-2_Map.png">Link to map</a>
+    <a href="https://imgur.com/a/22dc1ra">Link to gif</a>
+  <br>
+    <img src="Garden_Encounter-2-0.gif" width="800" height="400" alt="Garden Map"></img>
+	</div>
+	</div>
+	  <div class="w3-container"><!--- Hydra Rounds --->
+       <h6> Hydra Rounds </h6>
+        <div class="w3-container">
+        <p>Note: This a major difference in how it is often done</p>
+        <p>One of the 4 sides will find that 3 Hydras have spawned and are in need of support, when this happens both of the floats will go and provide support to the side with Hydras and tether there when everything is dead. 
+		During this time the Defence Team needs to find out where they are going to tether, the best place would be opposite where the Hydras have appeared. Ex. Hydras spawn at North, Floats go to North for support and 
+		defence(not including the one needing support, North) goes to south to tether once adds are dead.</p>
+	</div>
+	  </div>
+      <div class="w3-container w3-aqua"><!--- Center --->
+	    <h6>Center</h6>
+	      <p>After the Last Hydra is killed everyone will run to the center of the arena. Here everyone will keep adds of the center spire and and kill hydras. Once Defenses subside, tether as a team to the center spire. 
+		  Repeat will increasing Hydras until the encounter ends.</p>
+		  <br>
+		  <p> The 2 major ways you can screw this up is by: Dying and making a circle with the tether.</p>  
+	  
+	  </div>
+    
+	
+</div><!--- Encounter 2 cover --->
+
+
+
+
+<div class="w3-container w3-light-green"><!--- ------------------------------------------------------------ ---><!--- Encounter 3 cover ---><!--- ------------------------------------------------------------ --->
+  <h1 id="Consecrated guide">Defeat the Consecrated Mind</h1>
+  <h3>That weird harpy wants to actually fight this time</h3>
+
+     <button class="w3-aqua" buttontype="button" onclick="generalNamesFUN();">Refresh Names</button> 
+   <p> Gambit Team = (1)-<em id="guardgenA">Gary1</em>, (2)-<em id="guardgenB">Gary2</em>, (3)-<em id="guardgenC">Gary3</em> </p>
+   <p> Boss Team = (1)-<em id="guardgenD">Gary4</em>, (2)-<em id="guardgenE">Gary5</em>, (3)-<em id="guardgenF">Gary6</em> </p>
+
+
+
+ <div class="w3-container w3-light-green"><!--- Gambit cover --->
+   <h4>Gambit Team</h4>
+   <p>Play Gambit</p>
+    <ol class="w3-container w3-margin-left">
+     <li>Gambit 1 - Find and kill first Minotaur</li>
+     <li>Gambit 1 - Bank motes and keep adds away from the bank</li>
+     <li>Gambit 2 - Find and kill 2 Minotaurs</li>
+     <li>Gambit 2 - Bank motes and keep adds away from the bank</li>
+     <li>Gambit 1 - Move back to center</li>
+     <li>Gambit 3 - Find and kill 2 Minotaurs</li>
+     <li>Gambit 3 - Bank motes and keep adds away from the bank</li>
+     <li>Gambit 1 - Find and kill 1 Minotaur</li>
+     <li>Gambit 1 - Bank motes and Prepare for damage phase</li>
+ </div><!--- Gambit cover --->
+ <div class="w3-container w3-lime"><!--- Boss cover --->
+    <h4>Boss Team</h4>
+    <p>Shoot some eyes!</p>
+     <ol class="w3-container w3-margin-left">
+      <li>As a group keep your collective eyes on the Boss</li>
+      <li>Follow the Boss once he stops shooting at you</li>
+      <li>Once you have stopped as a group in front of the Boss, line up in front of the Boss</li>
+      <li>The person in the middle will be hit with a "Voltaic Overflow" and will be unable to move ("Detained")</li>
+      <li>The person in the middle will see 6 eyes, only 3 of which will be glowing red (not including his center eye). They must callout which eyes are glowing (either, inside eyes or outside eyes)</li>
+      <li>Everyone will shoot one eye(left shoots left, right shoots right, middle shoots top)</li>
+      <li>Run back to middle and watch the Boss again</li>
+      <li>Follow and change who is in middle as "Voltaic Overflow" still kills you if you grab another before your timer is up</li>
+     </ol>
+ </div><!--- Boss cover --->
+ <div class="w3-container w3-green w3-text-black"><!--- Damage cover --->
+   <h4>Damage Phase</h4>
+   <p>As soon as Gambit team has banked a total of 30 motes a message stating "The Consecrated Mind is drawn to the overloaded relay". At this point everyone should move to the Bank/Relay, the Boss will also be making its way 
+   there. Once you are there the Boss will open up and you will need to shoot every eye on the Boss. Once all the eyes have been destroyed the Boss's eye will turn white. Once you see the white of his eye shoot him with 
+   everything you got, start with weapons that crit because if you must stun him before he blows up and takes all of you with him. Also, moving forward with the Boss is recommended as a wall will appear in front of the relay 
+   pretty quickly after the Boss enters damage phase.</p>
+   
+ </div><!--- Damage cover --->
+<br>
+</div><!--- Encounter 3 cover --->
+
+
+
+<div class="w3-container w3-green"><!--- ------------------------------------------------------------ ---><!--- Jump Puzzle 2 cover ---><!--- ------------------------------------------------------------ --->
+  <h1 id="Windmill guide">Windmill Jumping puzzle</h3>
+  <h3>There are two ways to go, the right way and the wrong way</h3>
+  <p>After defeating the previous Boss, you will make your way through the spinning tunnel and find a chest this is for the previous encounter. Continuing on you will jump across a gap and find a portal 
+  (don't jump in it, but you can do what you want) turn left and you will find a few platforms to move forward, jump until you round a large structure and find a giant windmill-looking thing. 
+  From here you have two major paths (both lead to the same place). Firstly, you can follow the wall upward by running back and forth until you make it all the way up. Secondly, you can just ride the windmill up like a 
+  BAMF (you have to stand on the <strong>edge</strong> of the holo-windmill, not the metal). At the top you will find a Vex milk waterfall, to the right of that is where you want to go. You will encounter some enemies, 
+  but you are more than equipped to take these guys down. After you climbed a bit, there will be a divide in the path. Left and up leads to the chest. Right and up leads to the Boss. You will need to cross a lake of vex milk, 
+  you can follow either the right or left wall (remember you can shoot flowers to open them up)</p>
+</div><!--- Jump Puzzle 2 cover --->
+
+
+
+<div class="w3-container w3-blue-gray w3-text-black"><!--- ------------------------------------------------------------ ---><!--- Encounter 4 cover ---><!--- ------------------------------------------------------------ --->
+  <h1 id="Sanctified guide">End the Sanctified Mind</h1>
+  <h3>Whos ready to play some Gambit?!</h3>
+
+
+   <button class="w3-aqua" buttontype="button" onclick="allNameyX();">Refresh Names</button> 
+   <p> Gambit 1 = <em id="guardX">Gary1</em> & <em id="guardXX">Gary2</em> </p>
+   <p> Gambit 2 = <em id="guardXXX">Gary3</em> & <em id="guardXXXX">Gary4</em> </p>
+   <p> Build Team = <em id="guardXXXXX">Gary5</em> & <em id="guardXXXXXX">Gary6</em> </p>
+
+<div class="w3-row w3-text-black"><!--- Teams Cover --->
+<div class="w3-container w3-half w3-dark-gray w3-text-black"><!--- Gambit 1 cover --->
+  <h4>Gambit 1</h4>
+  <p>Gambit 1 & 2 have the same job, you will just be doing it at different times</p>
+  <ol class="w3-container w3-margin-left w3-text-black">
+   <li>As the encounter starts adds and a Hydra will spawn. Kill 'em</li>
+   <li>2 Weak points will spawn. One on the Boss's Leg (your left) and another on the Boss's Shoulder (your right)</li>
+   <li>Shoot the Left one first (Leg) and a blue portal will appear farther to your left</li>
+   <li>Enter the portal and kill every add you find and collect all the motes they drop</li>
+   <li>After you gather 15 motes between both of you call for someone to break Leg</li>
+   <li>After Leg is broken it will automaticly teleport you to spawn where you will move to bank your motes</li>
+   <li>Bank at the Blue Bank</li>
+   <li>You will become "Enlightened". You need to protect the Banks by splitng up and braking shielded goblins</li>
+   <li>Soon Gambit 2 will be need someone to break Leg. Break it</li>
+   <li>Immedietly break Arm and enter the red portal to your right</li>
+   <li>More adds to kill and motes to collect. Still looking for 15</li>
+   <li>Call for some one to break Arm</li>
+   <li>Bank at the Red Bank</li>
+   <li>You will become "Enlightened". You need to protect the Red Bank by breaking shielded goblins</li>
+   <li>Both the Banks will be locked and you will enter Tether & Damage Phase</li>
+   <li>Repeat until the Boss is dead</li>
+  </ol>
+</div><!--- Gambit 1 cover --->
+
+<div class="w3-container w3-half w3-dark-gray w3-text-black"><!--- Gambit 2 cover --->
+  <h4>Gambit 2</h4>
+  <p>Gambit 1 & 2 have the same job, you will just be doing it at different times</p>
+  <ol class="w3-container w3-margin-left w3-text-black">
+   <li>As the encounter starts adds and a Hydra will spawn. Kill 'em</li>
+   <li>2 Weak points will spawn. One on the Boss's Leg (your left) and another on the Boss's Shoulder (your right)</li>
+   <li>Gambit 1 will enter the Left blue Portal, while they do that kill adds and protect the banks</li>
+   <li>Gambit 1 will call to break Leg. Break it and enter the Blue Portal</li>
+   <li>Kill every add you find and collect all the motes they drop, you are try to get 15 motes between both of you</li>
+   <li>Call for someone to break Leg. You will return to spawn and will move to the Blue Bank to Bank your motes</li>
+   <li>You will become "Enlightened". You need to protect the Red Bank by breaking shielded goblins</li>
+   <li>Soon Gambit 1 will be need someone to break Arm. Break it and enter the red portal to your right</li>
+   <li>More adds to kill and motes to collect. Still looking for 15</li>
+   <li>Call for someone to break Arm</li>
+   <li>Bank at the Red Bank</li>
+   <li>Both the Banks will be locked and you will enter Tether & Damage Phase</li>
+   <li>Repeat until the Boss is dead</li>
+  </ol>
+  <br><br><br>
+</div><!--- Gambit 2 cover --->
+
+<div class="w3-container w3-gray w3-text-black"><!--- Build Cover --->
+  <h4>Build Team</h4>
+  <p>The obejctive of Build team is to get and keep as must land as possible, because land will be taken by the Boss whenever a weak point on the Boss is broken</p>
+  <ol>
+    <li>Once the Fight starts, your job is to keep adds off the Banks, as they can still sacrifice and wipe your team / steal enough motes to force a wipe</li>
+    <li>After the first Gambit team makes it through the portal, check what piece of land was taken. If the piece taken isn't possible to be done with only two people either leave it or ask one of Gambit people to help out.</li>
+    <li>If the land is able to be reclaimed with the amount of people you have, tether from the top of the spire to the end point that corresponds with the land lost</li>
+    <li>Repeat this until Both Banks are Pulsing and/or The Tether is locked, continue after Damage Phase</li>
+    <li>After Damage Phase the Banks will rearange, making some pieces of land easier and harder to get</li>
+    <li>The Angelic that spawns at the start will once agin spawn and will lock the Tether/Banks for as long as its alive</li>
+    <li>Repeat from Step 1</li>
+  </ol>
+</div><!--- Build Cover --->
+</div><!--- Teams Cover --->
+
+<div class="w3-container w3-blue-gray w3-text-black"><!--- Damage Cover --->
+  <h4>Tether & Damage Phase</h4>
+  <p>Once Both the Banks are pulsing the Boss will kneel and present a giant red or blue vex structure. Build team and one person from one of the Gambit teams will tether from the Bank of the structure's colour to the structure held by the Boss. Then will immediately move to the opposite bank and ther from that to the Boss.</p><br>
+  <p>After successfully tethering to the Boss twice the Boss will rise into the air and open a crit spot in the middle of his stomach this is when you should unload all of your damage into him. Note: when the Boss rises the first time (just after the first tether) he will be damageable, this can be ingored for the most part but it is there if you want to do something with it
+</div><!--- Damage Cover --->
+<br>
+</div></div><!--- Encounter 4 cover --->
+
+<!--- ------------------------------------------------------------ ---><!--- ---------------------------END--------------------------------- ---><!--- ------------------------------------------------------------ --->
+
+</div>
+
+
+
+</div>
+</body>
+</html>
